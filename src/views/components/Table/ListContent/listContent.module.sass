@@ -1,0 +1,68 @@
+.disable
+    display: none
+
+.info_table_row_content
+    min-height: 38px
+    display: flex
+    margin: 12px 0
+    align-items: center
+
+.info_table_column_content
+    margin-left: 10px
+    display: inline-block
+    
+    &:nth-child(1)
+        flex: 0 0 110px
+        
+    &:nth-child(2)
+        flex: 1 1 300px
+        
+    &:nth-child(3)
+        flex: 0 0 200px
+        
+    &:nth-child(4)
+        flex: 0 0 200px
+        
+    &:nth-child(5)
+        flex: 0 0 200px
+        
+    &:nth-child(6)
+        flex: 0 0 200px
+
+    input
+        color: #ffffff
+        width: 94%
+        padding: 10px
+        background-color: #202124
+        border: 1px solid #414144
+        border-radius: 6px
+
+.icon_content
+    position: relative
+    background: #ffffff
+    border-radius: 6px
+    
+    button 
+        position: absolute
+        top: -10px
+        cursor: pointer
+        margin-right: 6px
+        width: 20px
+        height: 16px
+        
+        &:nth-child(1)
+            left: 10px
+            background: url(../../../../data/icon/level1.svg)0px 0px/20px 16px no-repeat
+    
+        &:nth-child(2)
+            left: 36px
+            background: url(../../../../data/icon/level2.svg)0px 0px/20px 16px no-repeat
+
+        &:nth-child(3)
+            left: 62px
+            background: url(../../../../data/icon/file.svg)0px 0px/20px 16px no-repeat
+        
+        &:nth-child(4)
+            left: 88px
+            margin-right: 0px
+            background: url(../../../../data/icon/delete.svg)0px 0px/20px 16px no-repeat
